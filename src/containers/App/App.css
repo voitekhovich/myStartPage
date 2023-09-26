@@ -16,11 +16,11 @@
 }
 
 .app__header {
-  background-color: #EDF2F7;
+  background-color: #ebe9dc;
 }
 
 .app__lead {
-  background: linear-gradient(180deg, #EDF2F7, #FFFFFF);
+  background: linear-gradient(180deg, #ebe9dc, #FFFFFF);
 }
 
 .app__items {
@@ -28,5 +28,5 @@
 }
 
 .app__footer {
-  background: linear-gradient(360deg, #EDF2F7, #FFFFFF);
+  background: linear-gradient(360deg, #ebe9dc, #FFFFFF);
 }
