@@ -1,0 +1,16 @@
+.projects {
+  padding: 50px 0;
+}
+
+.projects ul {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.projects li {
+  list-style: none;
+  max-width: 400px;
+  border: 1px solid #8FA2CA;
+}

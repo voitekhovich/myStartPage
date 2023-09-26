@@ -1,4 +1,32 @@
-.App {
-  background: #EDF2F7;
+:root {
+  --width-page: 1170px;
+  --margin-page: 0 auto;
+}
+
+.app {
+  /* background: #EDF2F7; */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.app__size :first-child {
+  width: var(--width-page);
+  margin: var(--margin-page);
+}
+
+.app__header {
+  background-color: #EDF2F7;
+}
+
+.app__lead {
   background: linear-gradient(180deg, #EDF2F7, #FFFFFF);
+}
+
+.app__items {
+  flex-grow: 1;
+}
+
+.app__footer {
+  background: linear-gradient(360deg, #EDF2F7, #FFFFFF);
 }
