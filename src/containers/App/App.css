@@ -16,17 +16,20 @@
 }
 
 .app__header {
-  background-color: #ebe9dc;
+  background-color: #2c2d35;
 }
 
 .app__lead {
-  background: linear-gradient(180deg, #ebe9dc, #FFFFFF);
+  /* background: linear-gradient(180deg, #2c2d35, #FFFFFF); */
+  background-color: #2c2d35;
 }
 
 .app__items {
+  background-color: #f7f7f7;
   flex-grow: 1;
 }
 
 .app__footer {
-  background: linear-gradient(360deg, #ebe9dc, #FFFFFF);
+  /* background: linear-gradient(360deg, #2c2d35, #FFFFFF); */
+  background-color: #2c2d35;
 }

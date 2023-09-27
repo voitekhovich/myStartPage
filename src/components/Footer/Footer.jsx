@@ -1,7 +1,7 @@
 import "./Footer.css";
 
 const Footer = () => {
-  return <footer>avcode.ru 2023</footer>;
+  return <footer>&copy; copyright avcode.ru</footer>;
 };
 
 export default Footer;

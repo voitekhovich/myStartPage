@@ -2,9 +2,10 @@ import "./Lead.css";
 
 const Lead = () => {
   return (
-    <div>
-      <h1>Привет!</h1>
-      <p>Я web разработчик</p>
+    <div className="lead">
+      <h1>Привет, я веб-разработчик</h1>
+      <hr/>
+      <p>Здесь представлены мои проекты</p>
     </div>
   );
 };

@@ -1,3 +1,7 @@
 li video {
   max-width: 100%;
 }
+
+li h2 {
+  display: inline;
+}

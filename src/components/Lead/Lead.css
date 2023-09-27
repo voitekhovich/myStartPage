@@ -1,0 +1,14 @@
+.lead {
+  height: 186px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lead hr {
+  width: 50%;
+  margin: 10px auto;
+  opacity: .2;
+}
