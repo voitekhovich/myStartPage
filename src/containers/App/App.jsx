@@ -1,7 +1,7 @@
-import Footer from '../../components/Footer/Footer';
-import Header from '../../components/Header';
-import Lead from '../../components/Lead/Lead';
-import Projects from '../../components/Projects/Projects';
+import Footer from '@components/Footer';
+import Header from '@components/Header';
+import Lead from '@components/Lead';
+import Elements from '@components/Elements';
 import './App.css';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Lead />
       </div>
       <div className='app__items app__size'>
-        <Projects />
+        <Elements />
       </div>
       <div className='app__footer app__size'>
         <Footer />
