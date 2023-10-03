@@ -1,27 +1,18 @@
 .element {
+  background-color: #fff;
+  padding-bottom: 5px;
+
   display: flex;
   flex-direction: column;
   gap: 5px;
-  background-color: #fff;
-  /* border: none; */
-  max-width: 100%;
 }
 
-.element :last-child {
-  padding-bottom: 10px;
-}
-
-/* .element__video {
-  max-width: 100%;
-} */
-
-.element__link {
-  max-width: 100%;
-  padding: 0;
+.element__link:hover {
+  opacity: .8;
 }
 
 .element__image {
-  max-width: 100%;
+  width: 100%;
   height: 225px;
   object-fit: cover;
   object-position: top;
@@ -29,7 +20,7 @@
 
 .element__title {
   padding: 0 10px;
-  /* display: inline; */
+  font-size: 20px;
 }
 
 .element__github {
@@ -37,6 +28,10 @@
   text-decoration: none;
   font-size: 13px;
   color: gray;
+}
+
+.element__github:hover {
+  color: #000;
 }
 
 .element__description{

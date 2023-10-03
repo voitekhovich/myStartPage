@@ -3,9 +3,9 @@ import "./Lead.css";
 const Lead = () => {
   return (
     <div className="lead">
-      <h1>Привет, я веб-разработчик</h1>
-      <hr/>
-      <p>Здесь представлены мои проекты</p>
+      <h1 className="lead__title">Привет, я <span>web</span> разработчик</h1>
+      <hr className="lead__line"/>
+      <p className="lead__description">Здесь живут мои проекты</p>
     </div>
   );
 };

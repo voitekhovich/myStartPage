@@ -4,14 +4,11 @@ import { projectsList } from '@constants/projectsList';
 
 const Elements = () => {
   return (
-    <div className="projects" >
-      <ul>
-        { projectsList.map(project =>
-          <Element data={project}/>
-        )}
-      </ul>
-      
-    </div>
+    <ul className="elements">
+      { projectsList.map(project =>
+        <Element data={project}/>
+      )}
+    </ul>
   );
 };
 
