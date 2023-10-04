@@ -1,6 +1,7 @@
 .header {
-  margin: 20px 40px;
-  /* height: 80px; */
+  margin: 20px auto;
+  padding: 0 40px;
+  max-width: 1250px;
 }
 
 .header__container {
@@ -24,7 +25,10 @@
 
 @media screen and (max-width: 767px) {
   .header {
-    margin: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .header__logo {
