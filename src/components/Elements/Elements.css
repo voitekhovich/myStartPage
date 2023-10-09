@@ -1,4 +1,9 @@
 .elements {
+  background-color: #f7f7f7;
+  flex-grow: 1;
+}
+
+.elements-content {
   margin: 0 auto;
   padding: 70px 40px;
   max-width: 1250px;
@@ -7,12 +12,12 @@
   justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(100px, 370px));
   gap: 45px 30px;
-
+  
   list-style-type: none;
 }
 
 @media screen and (max-width: 767px) {
-  .elements {
+  .elements-content {
     padding: 20px 15px 40px;
   }
 }

@@ -1,4 +1,8 @@
 .header {
+  background-color: #2c2d35;
+}
+
+.header__contant {
   margin: 20px auto;
   padding: 0 40px;
   max-width: 1250px;
@@ -24,7 +28,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header {
+  .header__contant {
     margin-top: 10px;
     margin-bottom: 10px;
     padding-right: 15px;

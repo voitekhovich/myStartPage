@@ -1,14 +1,16 @@
 import "./Elements.css";
 import Element from "@components/Element";
-import { projectsList } from '@constants/projectsList';
+import { projectsList } from "@constants/projectsList";
 
 const Elements = () => {
   return (
-    <ul className="elements">
-      { projectsList.map(project =>
-        <Element data={project}/>
-      )}
-    </ul>
+    <div className="elements">
+      <ul className="elements-content">
+        {projectsList.map((project) => (
+          <Element data={project} key={project.projectName} />
+        ))}
+      </ul>
+    </div>
   );
 };
 

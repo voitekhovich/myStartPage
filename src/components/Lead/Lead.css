@@ -1,5 +1,9 @@
 .lead {
-  margin: 20px 40px 40px;
+  background-color: #2c2d35;
+}
+
+.lead-content {
+  padding: 20px 40px 40px;
  
   display: flex;
   flex-direction: column;
@@ -30,8 +34,8 @@
 }
 
 @media screen and (max-width: 767px) {
-  .lead {
-    margin: 10px 20px 20px;
+  .lead-content {
+    padding: 10px 20px 20px;
   }
 
   .lead__title {
