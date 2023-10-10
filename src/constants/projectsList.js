@@ -47,7 +47,7 @@ export const projectsList = [
   {
     name: "Научиться учиться",
     projectName: "how-to-learn",
-    link: "https://voitekhovich.github.io/how-to-learn/",
+    link: "https://howtolearn.avcode.ru/",
     description: 'Учебный проект Яндекс.Практикум по курсу "Расширенные возможности HTML и CSS".',
     gitHub: "https://github.com/voitekhovich/how-to-learn",
     video: "https://user-images.githubusercontent.com/30049720/221370596-5d9565f0-2671-4a89-ad47-af7beaf5a319.mp4",
