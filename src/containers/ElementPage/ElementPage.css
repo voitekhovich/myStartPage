@@ -86,9 +86,14 @@
 }
 
 @media screen and (max-width: 767px) {
+
+  .button__back {
+    display: none;
+  }
+
   .element-page__content {
     padding: 20px 15px 40px;
-    gap: 15px;
+    /* gap: 15px; */
   }
 
   .element-page__title {
@@ -99,7 +104,7 @@
   }
 
   .element-page__link {
-    font-size: 14px;
+    /* font-size: 14px; */
   }
 
   .element-page__description {
