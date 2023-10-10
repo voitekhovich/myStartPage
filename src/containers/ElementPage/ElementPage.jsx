@@ -13,9 +13,9 @@ const ElementPage = () => {
   return (
     <div className="element-page">
       <div className="element-page__content">
-        <button className="button__back" onClick={() => navigate(-1)}>
+        {/* <button className="button__back" onClick={() => navigate(-1)}>
           &#8249; Назад
-        </button>
+        </button> */}
 
         <h2 className="element-page__title">{data.name}</h2>
 

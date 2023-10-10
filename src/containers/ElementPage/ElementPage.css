@@ -1,5 +1,6 @@
 .element-page {
   flex-grow: 1;
+  background-color: #f7f7f7;
 }
 
 .element-page__content {
@@ -93,7 +94,6 @@
 
   .element-page__content {
     padding: 20px 15px 40px;
-    /* gap: 15px; */
   }
 
   .element-page__title {
@@ -103,12 +103,8 @@
     text-align: center;
   }
 
-  .element-page__link {
-    /* font-size: 14px; */
-  }
-
   .element-page__description {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .element-page__images {
