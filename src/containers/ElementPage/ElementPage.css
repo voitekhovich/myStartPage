@@ -60,15 +60,17 @@
 
 .element-page__images {
   /* margin: 0 auto; */
-  display: grid;
-  justify-content: center;
-  grid-template-columns: auto auto;
-  gap: 10px;
-  list-style: none;
+  /* display: grid; */
+  /* justify-content: center; */
+  /* grid-template-columns: auto auto; */
+  /* gap: 10px; */
+  /* list-style: none; */
+  max-height: 339px;
 }
 
 .element-page__video {
   width: 100%;
+  max-height: 339px;
 }
 
 .element-page__image {
@@ -86,6 +88,22 @@
 @media screen and (max-width: 767px) {
   .element-page__content {
     padding: 20px 15px 40px;
+    gap: 15px;
+  }
+
+  .element-page__title {
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .element-page__link {
+    font-size: 14px;
+  }
+
+  .element-page__description {
+    font-size: 16px;
   }
 
   .element-page__images {

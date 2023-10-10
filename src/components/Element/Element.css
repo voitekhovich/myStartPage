@@ -1,5 +1,6 @@
 .element {
   background-color: #fff;
+  
 }
 
 .element__link {
@@ -7,10 +8,11 @@
   color: #000;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .element__link:hover {
-  opacity: .7;
+  opacity: .9;
 }
 
 .element__image {
@@ -18,6 +20,13 @@
   height: 225px;
   object-fit: cover;
   object-position: top;
+  
+  transition: .2s;
+  
+}
+
+.element__image:hover {
+  transform: scale(1.05);
 }
 
 .element__title {

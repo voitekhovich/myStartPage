@@ -6,15 +6,16 @@ import "./ElementPage.css";
 
 const ElementPage = () => {
   const params = useParams();
-  const navigate  = useNavigate();
+  const navigate = useNavigate();
 
   const data = projectsList.find((obj) => obj.projectName === params.id);
 
   return (
     <div className="element-page">
       <div className="element-page__content">
-
-        <button className="button__back" onClick={() => navigate(-1)}>&#8249; Назад</button>
+        <button className="button__back" onClick={() => navigate(-1)}>
+          &#8249; Назад
+        </button>
 
         <h2 className="element-page__title">{data.name}</h2>
 
@@ -31,26 +32,20 @@ const ElementPage = () => {
             </Link>
           </li>
         </ul>
-        <ul className="element-page__images">
-          {data.video && (
-            <li>
-              <video className="element-page__video" controls>
-                <source src={data.video} type="video/mp4"></source>
-              </video>
-            </li>
-          )}
-          <li>
-            {" "}
+        <div className="element-page__images">
+          {data.video ? (
+            <video className="element-page__video" controls>
+              <source src={data.video} type="video/mp4"></source>
+            </video>
+          ) : (
             <img
               className="element-page__image"
               src={data.image ? data.image : noImageImg}
               alt={data.name}
             />
-          </li>
-        </ul>
-        <p className="element-page__description">
-          {data.description}
-        </p>
+          )}
+        </div>
+        <p className="element-page__description">{data.description}</p>
       </div>
     </div>
   );
