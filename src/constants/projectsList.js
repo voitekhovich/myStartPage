@@ -7,7 +7,7 @@ export const projectsList = [
   {
     name: "Star Wars",
     projectName: "react-star-wars",
-    link: "http://starwars.avcode.ru/",
+    link: "https://starwars.avcode.ru/",
     description: "Frontend проект для API сервиса https://swapi.dev/",
     gitHub: "https://github.com/voitekhovich/react-star-wars",
     video: "",
