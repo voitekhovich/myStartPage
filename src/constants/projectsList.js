@@ -37,7 +37,7 @@ export const projectsList = [
   {
     name: "Путешествие по России",
     projectName: "russian-travel",
-    link: "https://voitekhovich.github.io/russian-travel/",
+    link: "https://rutravel.avcode.ru/",
     description: 'Учебный проект Яндекс.Практикум по курсу "Адаптивная вёрстка и работа с макетом".',
     gitHub: "https://github.com/voitekhovich/russian-travel",
     video: "https://user-images.githubusercontent.com/30049720/221410832-b41150a9-6787-4e27-b6c2-f6200047e418.mp4",
