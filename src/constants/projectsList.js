@@ -2,6 +2,7 @@ import howToLearnImg from "@images/data/How To Learn.png";
 import mestoImg from "@images/data/Mesto.png";
 import russianTravelImg from "@images/data/Russian Travel.png";
 import starWarsImg from "@images/data/Star Wars.png";
+import moviesImg from "@images/data/Movies.png";
 
 export const projectsList = [
   {
@@ -17,17 +18,17 @@ export const projectsList = [
   {
     name: "Movies Explorer",
     projectName: "movies-explorer-frontend",
-    link: "",
+    link: "https://movies.avcode.ru/",
     description: "Сервис, в котором можно найти фильмы по запросу и сохранить в личном кабинете.",
     gitHub: "https://github.com/voitekhovich/movies-explorer-frontend",
     video: "https://user-images.githubusercontent.com/30049720/228648047-0b5c3594-a0c4-4466-b7a8-fadeb4d0894a.mp4",
-    image: "",
+    image: moviesImg,
     active: false
   },
   {
     name: "Mesto",
     projectName: "mesto",
-    link: "https://voitekhovich.github.io/mesto/",
+    link: "https://mesto.avcode.ru/",
     description: "Сервис Mesto: интерактивная страница, куда можно добавлять фотографии, удалять их, ставить лайки и редактировать профиль.",
     gitHub: "https://github.com/voitekhovich/mesto",
     video: "https://user-images.githubusercontent.com/30049720/221412047-47975354-4a56-4716-a226-a94c87c353bc.mp4",
