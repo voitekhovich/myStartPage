@@ -1,6 +1,7 @@
 .element-page {
   flex-grow: 1;
   background-color: #f7f7f7;
+  height: 100%;
 }
 
 .element-page__content {
